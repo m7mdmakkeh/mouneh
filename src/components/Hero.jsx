@@ -17,7 +17,7 @@ export default function Hero() {
                 alt=""
             />
             <div className="absolute inset-0 -z-10 bg-black/40"></div>
- 
+
             <Menu variant={"hero"} className={cn(!inViewport && "fixed z-50 top-0 left-0 right-0 w-full bg-primary")} mini={!inViewport}/>
             <h1 className="mt-28 md:mt-16 tracking-widest text-5xl text-center font-thin text-white md:flex md:gap-2 md:flex-col">
                 <span className="md:text-xl">PRESERVING</span>{" "}

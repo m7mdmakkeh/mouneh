@@ -34,19 +34,19 @@ export default function ProductsPage() {
             title: "Goat Cheese 700g",
             weight: "700g",
             price: "$10.00",
-            image: "Goat Cheese .png",
+            image: "Goat Cheese.png",
         },
         {
             title: "Makdous 800g",
             weight: "800g",
             price: "$7.50",
-            image: "Eggplant .png",
+            image: "Eggplant.png",
         },
         {
             title: "Tomato Paste 800g",
             weight: "800g",
             price: "$7.00",
-            image: "Tomato Paste .png",
+            image: "Tomato Paste.png",
         },
         {
             title: "Debs Remen 500ml",
@@ -58,13 +58,13 @@ export default function ProductsPage() {
             title: "Green Olives 900g",
             weight: "900g",
             price: "$5.00",
-            image: "Green olives .png",
+            image: "Green olives.png",
         },
         {
             title: "Black Olives 900g",
             weight: "900g",
             price: "$4.00",
-            image: "Black olives .png",
+            image: "Black olives.png",
         },
         {
             title: "Olive Oil 1Tank",
@@ -100,13 +100,13 @@ export default function ProductsPage() {
             title: "Orange Blossom Water 250ml",
             weight: "250ml",
             price: "$3.50",
-            image: "Blossom water .png",
+            image: "Blossom water.png",
         },
         {
             title: "Rose Water 250ml",
             weight: "250ml",
             price: "$3.50",
-            image: "Rose water .png",
+            image: "Rose water.png",
         },
         {
             title: "Blackberry Syrup 500ml",
@@ -118,7 +118,7 @@ export default function ProductsPage() {
             title: "Rose Syrup 500ml",
             weight: "500ml",
             price: "$3.50",
-            image: "Rose syrup .png",
+            image: "Rose syrup.png",
         },
         {
             title: "Fig Jam 600g",
@@ -136,7 +136,7 @@ export default function ProductsPage() {
             title: "Blackberry Jam 600g",
             weight: "600g",
             price: "$3.50",
-            image: "Blackberry jam .png",
+            image: "Blackberry jam.png",
         },
         {
             title: "Zaatar 1 Kilo",
@@ -154,7 +154,7 @@ export default function ProductsPage() {
             title: "Honey 1 Kilo",
             weight: "1 Kilo",
             price: "$20.00",
-            image: "Honey .png",
+            image: "Honey.png",
         },
     ];
 
