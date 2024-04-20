@@ -112,6 +112,7 @@ html {
 
 .section-title {
     position: relative;
+    --underline-color: darkgoldenrod;
 }
 
 .section-title::after {
@@ -122,11 +123,9 @@ html {
     translate: -50% 0;
     height: 3px;
     width: 33px;
-    background-color: aquamarine;
+    background-color: var(--underline-color);
 }
-.section-title-about::after {
-    background-color: #ebb867;
-}
+
 
 input::placeholder {
     text-transform: uppercase;
@@ -152,4 +151,9 @@ textarea:focus {
     height: 2px;
     width: 33px;
     background-color: white;
+}
+@media screen and (max-width: 767px) {
+    .ingredients::after {
+        display: none;
+    }
 }

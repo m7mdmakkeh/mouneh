@@ -10,9 +10,12 @@ export default function Section({
     variant,
 }) {
     return (
-        <section className={cn("container px-44 py-16", className)}>
+        <section
+            className={cn("container px-44 sm:px-8 py-16 sm:py-8", className)}
+        >
             <h2
-                className={`section-title section-title-${variant} mb-20 uppercase text-[20px] font-thin text-center`}
+                className={`section-title section-title-${variant} mb-20 sm:mb-12 uppercase text-xl sm:text-base font-thin text-center`}
+                style={color ? { "--underline-color": color } : {}}
             >
                 {title}
             </h2>

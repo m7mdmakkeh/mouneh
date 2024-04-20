@@ -9,17 +9,18 @@ import OurRange from "@/components/OurRange";
 import Section from "@/components/Section";
 import Image from "next/image";
 
+
 export default function Home() {
   return (
     <>
     <Hero/>
     <main className="text-3xl">
       <AboutSection/>
-      {/* <Genesis /> */}
-      {/* <ConnectSection /> */}
-      {/* <OurRange /> */}
-      {/* <ContactSection /> */}
-      {/* <Footer /> */}
+      <Genesis />
+      <ConnectSection />
+      <OurRange />
+      <ContactSection />
+      <Footer />
     </main>
     </>
   );
