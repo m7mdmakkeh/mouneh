@@ -124,12 +124,12 @@ export default function OurRange() {
 
                 <div className="flex justify-center items-center">
                     <button onClick={() => swiper.current?.slidePrev()} className="border-2 border-orange-950/70 px-5 py-3 uppercase text-sm flex items-center justify-center gap-3 font-light text-orange-900/90">
-                        <img src="/img/angle-left.webp" className="w-3"/>
+                        <img src="/images/angle-left.webp" className="w-3"/>
                         prev
                     </button>
                     <button onClick={() => swiper.current?.slideNext()} className="border-2 border-orange-950/70 px-5 py-3 uppercase text-sm flex items-center justify-center gap-3 font-light text-orange-900/90">
                         next
-                        <img src="/img/angle-right.webp" className="w-3"/>
+                        <img src="/images/angle-right.webp" className="w-3"/>
                     </button>
                 </div>
             </div>
@@ -174,7 +174,7 @@ const Product = ({ product, reversed }) => {
                         )}
                     >
                         <img
-                            src={`/img/${product.mainImage}`}
+                            src={`/images/${product.mainImage}`}
                             alt=""
                             className="object-cover w-full h-full"
                         />
@@ -188,7 +188,7 @@ const Product = ({ product, reversed }) => {
                         )}
                     >
                         <img
-                            src={`/img/${product.relatedImages[0]}`}
+                            src={`/images/${product.relatedImages[0]}`}
                             alt=""
                             className="object-cover w-full h-full absolute inset-0"
                         />
@@ -200,7 +200,7 @@ const Product = ({ product, reversed }) => {
                         )}
                     >
                         <img
-                            src={`/img/${product.relatedImages[1]}`}
+                            src={`/images/${product.relatedImages[1]}`}
                             alt=""
                             className="object-cover w-full h-full absolute inset-0"
                         />
@@ -212,7 +212,7 @@ const Product = ({ product, reversed }) => {
                     {product.title}
                 </p>
                 <img
-                    src={`/img/${product.mobileImage}`}
+                    src={`/images/${product.mobileImage}`}
                     alt=""
                     className="object-cover w-full"
                 />

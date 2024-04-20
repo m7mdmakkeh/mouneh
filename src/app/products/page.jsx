@@ -169,7 +169,7 @@ export default function ProductsPage() {
                             key={product.title}
                         >
                             <img
-                                src={"/img/" + product.image}
+                                src={"/images/" + product.image}
                                 className="w-96"
                             />
                             <p className="pt-3 pb-1">{product.title}</p>

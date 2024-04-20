@@ -3,8 +3,8 @@ import React from "react";
 
 export default function Genesis() {
     return (
-        <section className="relative bg-[url('/img/genesisbg.jpg')] bg-no-repeat min-h-[510px] bg-[length:2560px_605px] bg-center sm:bg-none sm:bg-[#ecb656]">
-            <img src="/img/genesisbg_mobile.jpg" className="w-full hidden sm:block"/>
+        <section className="relative bg-[url('/images/genesisbg.jpg')] bg-no-repeat min-h-[510px] bg-[length:2560px_605px] bg-center sm:bg-none sm:bg-[#ecb656]">
+            <img src="/images/genesisbg_mobile.jpg" className="w-full hidden sm:block"/>
             <div className="p-[80px_40px_70px] sm:py-12 sm:px-6 text-center w-[530px] mx-auto sm:w-fit">
                 <h3 className="text-3xl uppercase font-black text-primary mb-9">
                     The genesis

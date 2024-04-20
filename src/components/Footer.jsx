@@ -23,7 +23,7 @@ export default function Footer() {
                 <span className="text-red-500">M.Makkeh</span>
             </p>
             <img
-                src="/img/footerbg.jpg"
+                src="/images/footerbg.jpg"
                 alt="footer"
                 className="absolute w-full inset-0 h-full object-cover -z-10 sm:hidden"
             />

@@ -12,7 +12,7 @@ export default function Hero() {
     return (
         <header ref={heroRef} className="h-[110vh] lg:h-screen flex flex-col items-center relative overflow-hidden text-primary">
             <img
-                src={"/img/herobg.jpg"}
+                src={"/images/herobg.jpg"}
                 className="-z-20 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 object-cover min-h-full w-full"
                 alt=""
             />
